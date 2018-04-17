@@ -3,6 +3,7 @@
 #include "Interface.hpp"
 
 namespace My {
+
 Interface IRuntimeModule {
   public:
     virtual ~IRuntimeModule(){};
@@ -11,7 +12,7 @@ Interface IRuntimeModule {
     // 结束化
     virtual void Finalize() = 0;
     // 时钟周期
-    virtual int Tick() = 0;
+    virtual void Tick() = 0;
 };
 
 } // namespace My
