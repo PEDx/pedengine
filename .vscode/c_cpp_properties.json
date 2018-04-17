@@ -57,6 +57,7 @@
             "includePath": [
                 "C:/Program Files/LLVM/x86_64-w64-mingw32/include",
                 "C:/Program Files/LLVM/include",
+                "C:/Users/Ped/Project/pedengine/Framework/Interface",
                 "${workspaceRoot}"
             ],
             "defines": [
