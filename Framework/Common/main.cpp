@@ -10,11 +10,11 @@ extern IApplication *g_pApp;
 int main( int argc, char **argv ) {
     int ret;
 
-    if ( ( ret = g_pApp->Initialize() ) == 0 ) {
+    if ( ( ret = g_pApp->Initialize() ) != 0 ) {
         printf( "Initialize failed!" );
         return ret;
     }
-    
+
     while ( !g_pApp->IsQuit() ) {
         g_pApp->Tick();
     }

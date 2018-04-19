@@ -1,4 +1,1 @@
-add_library(Common
-BaseApplication.cpp
-main.cpp
-)
+add_subdirectory(Common)
